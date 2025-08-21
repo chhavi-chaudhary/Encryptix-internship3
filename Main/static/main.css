@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap');
+
+body {
+  background: linear-gradient(to right, #e3fdfd, #fef6e4);
+  color: #222;
+  margin-top: 5rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #1a1a1a;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+/* Navbar */
+.bg-steel {
+  background: #0d1b2a;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.site-header .navbar-nav .nav-link {
+  color: #f1f1f1;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: #00f5d4;
+  transform: translateY(-2px);
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 600;
+  color: #ffb703;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-link {
+  position: relative;
+  margin: 0 8px;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background: #00f5d4;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.nav-link.btn {
+  border: 2px solid #fff;
+  transition: all 0.3s ease;
+}
+
+.nav-link.btn:hover {
+  background: #fff;
+  color: #0d1b2a !important;
+}
+
+
+/* Content sections */
+.content-section {
+  background: #ffffff;
+  padding: 20px 25px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.content-section:hover {
+  transform: translateY(-3px);
+}
+
+/* Article Titles */
+.article-title {
+  color: #003566;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+
+a.article-title:hover {
+  color: #ff6f61;
+  text-decoration: none;
+}
+
+/* Article Metadata */
+.article-metadata {
+  font-size: 0.9rem;
+  color: #666;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.article-metadata a {
+  color: #0077b6;
+  transition: color 0.3s ease;
+}
+
+.article-metadata a:hover {
+  color: #023e8a;
+  text-decoration: none;
+}
+
+/* Images */
+.article-img {
+  height: 70px;
+  width: 70px;
+  margin-right: 16px;
+  border-radius: 8px;
+}
+
+.account-img {
+  height: 140px;
+  width: 140px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* Account Heading */
+.account-heading {
+  font-size: 2.8rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #1d3557;
+}
+
+
