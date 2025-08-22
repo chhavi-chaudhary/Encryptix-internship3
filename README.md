@@ -36,7 +36,7 @@ This project suggests books to users based on their preferences using Collaborat
 ## Installation & Setup
 
 - Clone the repository
-git clone https://github.com/your-username/Book-Recommendation-System.git
+git clone https://github.com/chhavi-chaudhary/Encryptix-internship3/edit/main/README.md/Book-Recommendation-System.git
 cd Book-Recommendation-System
 
 - Install dependencies
